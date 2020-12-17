@@ -1,0 +1,162 @@
+:root {
+  font-size: 10px;
+}
+
+
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+
+.container {
+  max-width: 93.5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+
+ img {
+  border-radius:50%;
+  width:200px;
+  height: 200px;
+}
+
+
+
+.profile-user-name {
+  display: inline-block;
+  font-size: 3.2rem;
+}
+
+.profile-edit-btn {
+  border: 0.1rem solid #dbdbdb;
+  padding: 0 2.4rem;
+  margin-left: 2rem;
+}
+
+
+
+
+.profile-stats li {
+  display: inline-block;
+  font-size: 1.6rem;
+  margin-right: 6rem;
+  margin-left: -50px;
+
+}
+
+
+.profile-bio {
+  font-size: 1.6rem;
+  line-height: 1.5;
+
+}
+
+.gallery {
+  display:flex;
+  flex-wrap: wrap;
+  margin: -1rem -1rem;
+  padding-bottom: 3rem;
+}
+
+.gallery-item {
+  position: relative;
+  flex: 1 0 22rem;
+  margin: 1rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.gallery-image {
+  border-radius: 5px;
+  width: 80%;
+  height: 50%;
+padding-top: 100px;
+  margin-right: 100px;
+}
+
+
+
+
+
+
+
+.pic:hover {opacity: 0.7;}
+
+
+
+
+
+@supports (display: grid) {
+  .profile {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: repeat(3, auto);
+  }
+
+  .profile-image {
+      grid-row: 1 / -1;
+  }
+
+
+  .btn{
+    background-color: skyblue;
+    padding: 12px 60px;
+    border-radius: 10%;
+
+  }
+
+  .ftn {
+    margin-left: 40px;
+    padding: 12px 20px;
+
+
+  }
+     
+  .pic {
+
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+
+
+  }
+  .Center{
+    margin-left: 50px;
+  }
+
+
+
+  
+  
+  form.example input[type=text] {
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    width: 20%;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+  }
+  
+  
+  
+
+  }
+  
+  
+
+ 
+
+  
+  
